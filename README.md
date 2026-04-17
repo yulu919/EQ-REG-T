@@ -18,7 +18,7 @@ In this work, we propose **EQ-Reg**, a unified regularization framework for lear
 ## 🖼️ Framework Overview
 
 <p align="center">
-  <img src="image/framework.png" width="85%">
+  <img src="image/framwork.png" width="85%">
 </p>
 
 ## 📂 Experiments
