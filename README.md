@@ -8,8 +8,8 @@ Official implementation.
 > Specifically, we introduce EQ-Reg, a regularization term designed to enhance rotation equivariance, which intrinsically extends the insights of both the data-augmentation-based and group-equivariant-based methodologies. 
 > This is achieved by applying the spatial rotation and cyclic channel shift of feature maps properties, derived from state-of-the-art equivariant network models, to the formulation of the core loss function in self-supervised learning.
 > By enforcing this equivariance regularization across intermediate feature representations, our method enables both convolution-based and Transformer-based models to adaptively learn symmetry priors for all network layers, in a plug-and-play manner. Extensive experiments on multiple low-level vision tasks demonstrate the superior accuracy and generalization capability of our method, outperforming state-of-the-art approaches.
->
-> ## 📌 Introduction
+
+## 📌 Introduction
 
 Rotation equivariance is an important prior for image restoration, especially when the underlying structures exhibit approximate rotational symmetry. Existing approaches often rely on specially designed equivariant architectures, which may suffer from restricted representation flexibility or imperfect matching to real data.
 
