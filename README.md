@@ -22,7 +22,7 @@ In this work, we propose **EQ-Reg**, a unified regularization framework for lear
 </p>
 
 ## 📂 Experiments
-We provide example implementations of **EQ-Reg** on two representative Transformer-based image restoration architectures: **Swin Transformer** and **Restormer**. The corresponding official projects are available at [SwinIR](https://github.com/JingyunLiang/SwinIR) and [Restormer](https://github.com/swz30/Restormer). :contentReference[oaicite:0]{index=0}
+We provide example implementations of **EQ-Reg** on two representative Transformer-based image restoration architectures: **Swin Transformer** and **Restormer**. The corresponding official projects are available at [SwinIR](https://github.com/JingyunLiang/SwinIR) and [Restormer](https://github.com/swz30/Restormer).
 
 ### Swin Transformer Example
 
