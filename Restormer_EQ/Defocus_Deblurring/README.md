@@ -12,7 +12,7 @@ python generate_patches_dpdd.py
 
 - To train Restormer and Restormer-reg on **single-image** defocus deblurring task, run
 ```
-cd Restormer
+cd Restormer_EQ
 ./train.sh Defocus_Deblurring/Options/DefocusDeblur_Single_8bit_Restormer.yml
 
 ./train.sh Defocus_Deblurring/Options/DefocusDeblur_Single_8bit_Restormer_loss.yml
@@ -20,7 +20,7 @@ cd Restormer
 
 - To train Restormer and Restormer-reg on **dual-pixel** defocus deblurring task, run
 ```
-cd Restormer
+cd Restormer_EQ
 ./train.sh Defocus_Deblurring/Options/DefocusDeblur_DualPixel_16bit_Restormer.yml
 
 ./train.sh Defocus_Deblurring/Options/DefocusDeblur_DualPixel_16bit_Restormer_loss.yml
