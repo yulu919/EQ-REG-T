@@ -22,3 +22,20 @@ In this work, we propose **EQ-Reg**, a unified regularization framework for lear
 </p>
 
 ## 📂 Experiments
+We provide example implementations of **EQ-Reg** on two representative Transformer-based image restoration architectures: **Swin Transformer** and **Restormer**. The corresponding official projects are available at [SwinIR](https://github.com/JingyunLiang/SwinIR) and [Restormer](https://github.com/swz30/Restormer). :contentReference[oaicite:0]{index=0}
+
+### Swin Transformer Example
+
+For experiments based on Swin Transformer, we provide a ready-to-use implementation under `./KAIR_EQ/`. The required conda environment file is included in this directory as `environment.yml`. After creating the environment, all training and testing commands can be found in `run.sh`.
+
+### Restormer Example
+
+For experiments based on Restormer, we recommend following the installation instructions in the official [Restormer repository](https://github.com/swz30/Restormer), especially the setup steps described in its `INSTALL.md`, to properly configure the project and install the required environment.
+
+The training and testing commands for our EQ-Reg-based Restormer experiments are provided in the `README.md` files inside each task-specific subfolder. Please refer to the corresponding subdirectory for detailed usage instructions.
+
+## 💌 Acknowledgement
+
+* *This project is built using [**swinir**](https://github.com/JingyunLiang/SwinIR), [**KAIR**](https://github.com/cszn/KAIR), [**Restormer**](https://github.com/swz30/Restormer) repositories. We express our heartfelt gratitude for the contributions of these open-source projects.*
+* *We also want to express our gratitude for some articles introducing this project and derivative implementations based on this project.*
+
