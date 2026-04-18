@@ -8,7 +8,7 @@ python download_data.py --data train-test
 
 2. To train Restormer and Restormer-reg with default settings, run
 ```
-cd Restormer
+cd Restormer_EQ
 ./train.sh Deraining/Options/Deraining_Restormer.yml
 
 ./train.sh Deraining/Options/Deraining_Restormer_loss.yml
